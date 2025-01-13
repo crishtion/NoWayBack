@@ -1,0 +1,44 @@
+*{
+    border: 1px red solid;
+  }
+  
+  
+  h1{
+    text-align: center;
+  }
+  
+  body {
+    background: #000;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  .black{
+    color: black;
+  }
+  .black:hover{
+    cursor: default;
+    
+  }
+  #countdown{
+    color:white;
+  }
+  .hidden-link{
+    cursor: default;
+    color: black;
+  }
+  
+  
+  #real{
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    bottom: 1.5rem;
+    padding:5px;
+    background-color: #000;
+  }
+  
+  #real:hover{
+    background-color: #fff;
+  }

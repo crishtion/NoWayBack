@@ -1,0 +1,33 @@
+*{
+    border: 1px red solid;
+  }
+  
+  html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    image-rendering: pixelated;
+  }  
+
+body {
+    background-color: black;
+}
+
+  #canvas-green {
+    background-color: green;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: default;
+}
+
+ #light {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 19%; 
+  height: 100%;
+ }

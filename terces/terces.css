@@ -1,0 +1,30 @@
+*{
+    border: 1px red solid;
+  }
+  
+  h1{
+    text-align: right;
+  }
+  
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  #selectionArea{
+    height: 10rem;
+    justify-items: right;
+  }
+  
+  .selectionButtons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1vmax;
+    height: 5vmax;
+    justify-content: center;
+    background-color: grey;
+    border-radius: 5px;
+    border: 3px black double;;
+  }
