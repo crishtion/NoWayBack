@@ -24,5 +24,5 @@ if(redDoorLocked === true){
 } 
 
 document.getElementById("blue").onclick = function () {
-          window.location.href = "NoWayHome/scene2/blue/blue.html";
+          window.location.href = "NoWayBack/scene2/blue/blue.html";
     };
