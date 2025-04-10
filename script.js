@@ -71,7 +71,7 @@ button1.addEventListener('click', function(){
     button1.innerHTML = 'Or was it 150?';
  
   } else if(clickCount === 150){
-    location.href = '/youWin.html'
+    location.href = 'youWin.html'
   }
 })
 
